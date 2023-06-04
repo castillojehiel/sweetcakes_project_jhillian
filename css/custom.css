@@ -1,0 +1,163 @@
+/* fonts */
+@font-face {
+    font-family: CandyFont;
+    src: url(../assets/fonts/BubbleBobble-rg3rx.ttf);
+  }
+/* end fonts */
+
+* {
+    font-family: CandyFont !important;
+    font-weight: bold;
+}
+
+.row{
+    margin : 0px!important;
+    padding : 0px !important;
+}
+
+.container {
+    padding : 0 !important;
+}
+
+body{
+    background:  #c25283;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+}
+
+.navbar .nav-link{
+    color: white !important;
+    font-size: 30px;
+}
+
+#logo {
+    width: 150;
+    height: 150px;
+}
+
+.navbar-toggler-icon {
+    color: red !important;
+    background-color: white;
+}
+.footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+  }
+#greetings {
+    color: white;
+    text-align: center;
+}
+#greetings #shop_name {
+    font-size: 15em;
+}
+
+.image-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .image-list-item {
+    display: inline-block;
+    margin-right: 1px;
+  }
+  
+  .image-list-item img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    -webkit-user-drag: none;
+  }
+
+  .bg-image {
+    
+    background-size: cover;
+    background-position: center;
+    height: 50vh; 
+    margin-top: 50px;
+  }
+
+  .bg-image#panel-cookies {
+    background-image: url('../assets/img1.jpg');
+  }
+  .bg-image#panel-cakes {
+    background-image: url('../assets/img3.jpg');
+  }
+  .bg-image#panel-muffins {
+    background-image: url('../assets/img4.jpg');
+  }
+  
+  .parent-div {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .child-div {
+    background-color: rgba(255, 255, 255, .7);
+    flex: 1;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+.about-profile .card-body{
+    background: url('./../assets/img5.jpg');
+    background-position: bottom;
+    background-size: contain;
+
+}  
+
+.menu-card img {
+    height: 18rem;
+    object-fit: cover;
+    object-position: center;
+}
+
+.menu-card .card-img-overlay {
+    background: rgba(255, 255, 255, 0.7);
+    height:fit-content
+}
+
+
+@media only screen and (max-width: 1200px) {
+    #greetings #shop_name {
+        font-size: 100px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    #logo {
+        width: 50px;
+        height: 50px;
+    }
+    #greetings #shop_name {
+        font-size: 100px;
+    }
+    .image-list-item img {
+        width: 150px;
+        height: 150px;
+      }
+}
+   .abts{
+        font-size:30px;
+}
+   #abtss{
+       font-size:40px;
+       color:white;
+} 
+     #menuContainer{
+        dispaly: flex;
+         flex-wrap:wrap;
+}
+     .wewe{
+         border-radius:100%;
+         background-position: bottom;
+         background-size: contain;
+         background: url('./../assets/img5.jpg');
+}
+   
